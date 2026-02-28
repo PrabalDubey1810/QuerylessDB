@@ -1,0 +1,29 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background: #f8fafc;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  position: relative;
+  padding-bottom: 120px;
+  /* Space for PromptBar */
+  scroll-behavior: smooth;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+.cards-section {
+  margin-top: 3rem;
+}

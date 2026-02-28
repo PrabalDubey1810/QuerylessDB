@@ -1,0 +1,64 @@
+/* ─── Header ─────────────────────────────────────────────── */
+.header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 var(--space-xl);
+    background: white;
+    border-bottom: 1px solid var(--border-subtle);
+    position: fixed;
+    top: 0;
+    left: var(--sidebar-width);
+    right: 0;
+    z-index: 40;
+    box-shadow: var(--shadow-sm);
+    gap: var(--space-md);
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-app-name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+}
+
+.header-db-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 999px;
+}
+
+.header-spacer {
+    flex: 1;
+}
+
+.header-settings-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+    cursor: pointer;
+}
+
+.header-settings-btn:hover {
+    background: white;
+    color: var(--text-primary);
+    border-color: var(--border-hover);
+    box-shadow: var(--shadow-sm);
+}

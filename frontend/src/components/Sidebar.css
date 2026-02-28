@@ -1,0 +1,105 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: var(--sidebar-width);
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-subtle);
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-lg) var(--space-md);
+    z-index: 100;
+    box-shadow: var(--shadow-sm);
+}
+
+.sidebar-top {
+    margin-bottom: var(--space-2xl);
+    padding: 0 var(--space-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--accent-blue);
+    letter-spacing: -0.5px;
+}
+
+.logo-icon {
+    /* Simple clean icon, no float animation */
+    color: var(--accent-blue);
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    flex: 1;
+}
+
+.nav-section-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+    padding: var(--space-md) var(--space-sm) var(--space-xs);
+    letter-spacing: 0.5px;
+}
+
+.sidebar-item {
+    width: 100%;
+    height: 44px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: 0 var(--space-md);
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all var(--transition-fast);
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    color: var(--text-primary);
+    background: var(--bg-tertiary);
+}
+
+.sidebar-item.active {
+    background: rgba(59, 130, 246, 0.1);
+    /* Light blue bg */
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.sidebar-item-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-bottom {
+    margin-top: auto;
+    border-top: 1px solid var(--border-subtle);
+    padding-top: var(--space-md);
+}
+
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-sm);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background var(--transition-fast);
+}
+
+.sidebar-profile:hover {
+    background: var(--bg-tertiary);
+}

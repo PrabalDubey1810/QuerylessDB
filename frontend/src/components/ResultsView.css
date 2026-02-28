@@ -1,0 +1,220 @@
+/* ── Results View Container ────────────────────────────── */
+.results-view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* Increased spacing between sections */
+    animation: fadeIn 0.4s ease both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ── Section Structure ──────────────────────────────────── */
+.unified-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-icon-wrapper {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon-wrapper.orange {
+    background: #fff7ed;
+    color: #f97316;
+}
+
+.header-icon-wrapper.multi {
+    background: #f0fdf4;
+    color: #22c55e;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #334155;
+}
+
+/* ── Query Component ────────────────────────────────────── */
+.query-content-wrapper {
+    background: #f8fafc;
+    border: 1px solid #f1f5f9;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.result-code {
+    margin: 0;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.95rem;
+    color: #475569;
+    white-space: pre-wrap;
+    word-break: break-all;
+    line-height: 1.6;
+}
+
+/* ── Data Table Component ────────────────────────────────── */
+.record-count-label {
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.section-actions-placeholder {
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+    color: #cbd5e1;
+}
+
+.table-scroll-area {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: auto;
+    max-height: 600px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.result-table th {
+    position: sticky;
+    top: 0;
+    background: #f8fafc;
+    z-index: 10;
+    text-align: left;
+    padding: 14px 20px;
+    color: #64748b;
+    font-weight: 600;
+    border-bottom: 2px solid #f1f5f9;
+    white-space: nowrap;
+}
+
+.result-table td {
+    padding: 14px 20px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+}
+
+.row-index {
+    background: #f8fafc;
+    color: #94a3b8;
+    text-align: center;
+    width: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.result-table tr:hover td {
+    background: #fdfdfd;
+}
+
+/* ── Chart Component ────────────────────────────────────── */
+.chart-container {
+    background: white;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
+
+/* ── AI Insights Component ──────────────────────────────── */
+.ai-container-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ai-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1e293b;
+}
+
+.ai-header-icon {
+    color: #6366f1;
+}
+
+.ai-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.ai-link-icon {
+    color: #cbd5e1;
+}
+
+.ai-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.insight-bullet {
+    display: flex;
+    gap: 12px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #334155;
+}
+
+.bullet-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #64748b;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+/* Success Message */
+.result-success-msg {
+    padding: 32px;
+    text-align: center;
+    color: #059669;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.spin-icon {
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

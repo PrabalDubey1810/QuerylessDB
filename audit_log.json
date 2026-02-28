@@ -1,0 +1,111 @@
+{"timestamp": "2026-02-19 00:21:55", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Failed: 500: LLM Generation Error: {\"StatusCode\":503,\"Status\":\"503 Service Unavailable\",\"error\":\"Service Temporarily Unavailable\"}"}
+{"timestamp": "2026-02-19 00:24:51", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 00:25:05", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-19 00:30:33", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 00:30:36", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}}", "status": "Success"}
+{"timestamp": "2026-02-19 16:27:28", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 16:27:39", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-19 16:30:24", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 16:30:39", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}}", "status": "Success"}
+{"timestamp": "2026-02-19 16:33:21", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 16:33:23", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-19 16:46:26", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Failed: 500: LLM Generation Error: {\"StatusCode\":503,\"Status\":\"503 Service Unavailable\",\"error\":\"Service Temporarily Unavailable\"}"}
+{"timestamp": "2026-02-19 16:46:51", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 16:46:57", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-19 16:49:09", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Failed: 500: LLM Generation Error: {\"StatusCode\":503,\"Status\":\"503 Service Unavailable\",\"error\":\"Service Temporarily Unavailable\"}"}
+{"timestamp": "2026-02-19 16:49:41", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 16:49:53", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-19 16:54:44", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-19 16:54:58", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-19 16:55:38", "user": "Admin", "action": "Generate Query", "query": "increase salary by 5% for all", "status": "Failed: 500: LLM Generation Error: {\"StatusCode\":503,\"Status\":\"503 Service Unavailable\",\"error\":\"Service Temporarily Unavailable\"}"}
+{"timestamp": "2026-02-19 16:56:02", "user": "Admin", "action": "Generate Query", "query": "increase salary by 5% for all", "status": "Success"}
+{"timestamp": "2026-02-21 13:38:48", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 8000", "status": "Failed: 500: LLM Generation Error: 'NoneType' object has no attribute 'request'"}
+{"timestamp": "2026-02-21 13:39:34", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-21 13:39:34", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary.amount': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 13:40:08", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 5000", "status": "Success"}
+{"timestamp": "2026-02-21 13:40:08", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary.amount': {'$gt': 5000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 13:46:52", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-21 13:46:52", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 13:48:00", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-21 13:48:00", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary.amount': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 13:48:35", "user": "Viewer", "action": "Generate Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-21 13:48:35", "user": "Viewer", "action": "Execute Query", "query": "{'filter': {'salary.amount': {'$gt': 80000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 13:58:22", "user": "Viewer", "action": "Generate MongoDB Query", "query": "deparment HR", "status": "Success"}
+{"timestamp": "2026-02-21 13:58:37", "user": "Viewer", "action": "Execute MongoDB Query", "query": "{'filter': {'department': 'HR'}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 14:02:23", "user": "Viewer", "action": "Generate SQL Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-21 14:02:33", "user": "Viewer", "action": "Execute SQL Query", "query": "SELECT * FROM employees WHERE salary > 80000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:04:10", "user": "Viewer", "action": "Generate SQL Query", "query": "salary greater than 80000", "status": "Success"}
+{"timestamp": "2026-02-21 14:04:16", "user": "Viewer", "action": "Execute SQL Query", "query": "SELECT * FROM employees WHERE salary > 80000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:09:00", "user": "Viewer", "action": "Generate MongoDB Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:09:00", "user": "Viewer", "action": "Execute MongoDB Query", "query": "{'filter': {'salary.value': {'$gt': 8000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 14:09:20", "user": "Viewer", "action": "Generate SQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:09:30", "user": "Viewer", "action": "Execute SQL Query", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:13:02", "user": "Viewer", "action": "Generate MongoDB Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:13:02", "user": "Viewer", "action": "Execute MongoDB Query", "query": "{'filter': {'salary.amount': {'$gt': 8000}}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 14:13:20", "user": "Viewer", "action": "Generate SQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:13:27", "user": "Viewer", "action": "Execute SQL Query", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:15:47", "user": "Viewer", "action": "Generate MongoDB Query", "query": "department HR", "status": "Success"}
+{"timestamp": "2026-02-21 14:15:55", "user": "Viewer", "action": "Execute MongoDB Query", "query": "{'filter': {'department': 'HR'}, 'projection': {}, 'pipeline': []}", "status": "Success"}
+{"timestamp": "2026-02-21 14:20:03", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:20:12", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': 8000}}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:21:23", "user": "Admin", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:21:23", "user": "Admin", "action": "Execute NoSQL Query", "query": "{'method': 'delete', 'filter': {'salary_amount': {'>': 8000}}}", "status": "Failed: list index out of range"}
+{"timestamp": "2026-02-21 14:21:45", "user": "Admin", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:21:45", "user": "Admin", "action": "SQL Mutation", "query": "DELETE FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:22:20", "user": "Viewer", "action": "Generate SQL", "query": "show all employees", "status": "Success"}
+{"timestamp": "2026-02-21 14:22:20", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees;", "status": "Success"}
+{"timestamp": "2026-02-21 14:23:32", "user": "Viewer", "action": "Generate NoSQL Query", "query": "all show employees", "status": "Success"}
+{"timestamp": "2026-02-21 14:23:38", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:24:40", "user": "Admin", "action": "Generate NoSQL Query", "query": "increase salary of all employees of by 5%", "status": "Success"}
+{"timestamp": "2026-02-21 14:24:40", "user": "Admin", "action": "NoSQL Mutation", "query": "{'method': 'update', 'filter': {}, 'update': {'salary_amount': 'salary_amount * 1.05'}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:25:08", "user": "Admin", "action": "Generate NoSQL Query", "query": "show all employees", "status": "Success"}
+{"timestamp": "2026-02-21 14:25:35", "user": "Admin", "action": "Execute NoSQL Query", "query": "{'filter': {}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:28:26", "user": "Viewer", "action": "Generate NoSQL Query", "query": "all show employees", "status": "Success"}
+{"timestamp": "2026-02-21 14:28:33", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {}, 'sort': ''}", "status": "Success"}
+{"timestamp": "2026-02-21 14:29:19", "user": "Viewer", "action": "Generate NoSQL Query", "query": "show all employees", "status": "Success"}
+{"timestamp": "2026-02-21 14:29:27", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:34:04", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:34:04", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'$expr': {'$gt': [{'$toInt': '$salary_amount'}, 8000]}}}", "status": "Failed: unhashable type: 'list'"}
+{"timestamp": "2026-02-21 14:34:25", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Failed: 500: NoSQL LLM error: Expecting value: line 1 column 1 (char 0)"}
+{"timestamp": "2026-02-21 14:35:09", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:35:09", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$regex': '^(?!8000)([8-9][0-9]{3}|[0-9]{5,})$'}}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:35:14", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:35:23", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:40:49", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000 ", "status": "Success"}
+{"timestamp": "2026-02-21 14:40:49", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': 8000}}}", "status": "Failed: '>' not supported between instances of 'str' and 'int'"}
+{"timestamp": "2026-02-21 14:43:01", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:43:08", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:43:54", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:44:08", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:45:45", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:45:52", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': '8000'}}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:46:22", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:46:29", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:47:59", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:48:11", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:48:52", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:48:57", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': '8000'}}}", "status": "Success"}
+{"timestamp": "2026-02-21 14:49:14", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:49:19", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:53:36", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:53:45", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:58:10", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:58:21", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 14:59:07", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 14:59:16", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': '8000'}}}", "status": "Success"}
+{"timestamp": "2026-02-21 15:02:24", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 15:02:24", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$regex': '^(8[0-9]{3}|9[0-9]{3}|[1-9][0-9]{4,})$'}}}", "status": "Success"}
+{"timestamp": "2026-02-21 15:02:42", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 15:02:53", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"timestamp": "2026-02-21 15:06:45", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 15:06:52", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': '8000'}}, 'sort': 'salary_amount'}", "status": "Success"}
+{"timestamp": "2026-02-21 15:08:07", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success"}
+{"timestamp": "2026-02-21 15:08:20", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success"}
+{"id": 0, "timestamp": "2026-02-21 15:34:37", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success", "db_type": null, "undone": false}
+{"id": 1, "timestamp": "2026-02-21 15:34:43", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': 8000}}}", "status": "Success", "db_type": null, "undone": false}
+{"id": 2, "timestamp": "2026-02-21 15:35:07", "user": "Viewer", "action": "Generate NoSQL Query", "query": "salary greater than 8000", "status": "Success", "db_type": null, "undone": false}
+{"id": 3, "timestamp": "2026-02-21 15:35:16", "user": "Viewer", "action": "Execute NoSQL Query", "query": "{'filter': {'salary_amount': {'$gt': 8000}}}", "status": "Success", "db_type": null, "undone": false}
+{"id": 4, "timestamp": "2026-02-21 15:36:24", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success", "db_type": null, "undone": false}
+{"id": 5, "timestamp": "2026-02-21 15:36:30", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success", "db_type": null, "undone": false}
+{"id": 0, "timestamp": "2026-02-21 15:40:56", "user": "Viewer", "action": "Generate SQL", "query": "salary greater than 8000", "status": "Success", "db_type": null, "undone": false}
+{"id": 1, "timestamp": "2026-02-21 15:41:07", "user": "Viewer", "action": "Execute SQL", "query": "SELECT * FROM employees WHERE salary_amount > 8000;", "status": "Success", "db_type": null, "undone": false}
